@@ -63,7 +63,7 @@ void sort_them(GPE array[],int sizes){
 }
 
 void print_them(GPE array[],int sizes){
-	cout<<"OOOOOOOOOOOOOOOOOOOOOOKKKKKKKKKKKKKKKKKKKKKKKKK\n";
+	//cout<<"OOOOOOOOOOOOOOOOOOOOOOKKKKKKKKKKKKKKKKKKKKKKKKK\n";
 	for(int i=0; i<sizes; i++){
 		fout2<<"ID: "<<setw(5)<<array[i].id<<"\t ";
 		fout2<<array[i].summary[0].course<<" "<<setw(6)<<fixed<<setprecision(3)<<array[i].summary[0].grade;
